@@ -8,8 +8,10 @@ $(function() {
   $newItemButton = $('#newItemButton');          // Cache button to show form
 
   $('li').hide().each(function(index) {          // Hide list items
-    $(this).fadeIn(1600);     // Then fade them in
+    $(this).fadeIn(2000);     // Then fade them in
   });
+
+
 
   
 
@@ -54,7 +56,7 @@ $(function() {
       $this.remove();                  // Remove the list item
       $list                            // Add back to end of list as complete
         .append('<li class=\"complete\">' + item + '</li>')
-        .hide().fadeIn(300);           // Hide it so it can be faded in
+        .hide().fadeIn(800);           // Hide it so it can be faded in
       updateCount();                   // Update the counter
     }                                  // End of else option
   });                                  // End of event handler
