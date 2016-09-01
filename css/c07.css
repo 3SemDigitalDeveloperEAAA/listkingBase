@@ -196,7 +196,7 @@ select, option {
   padding: 10px 0 0 22px;}
 
 #packageHint {
-  color: #fff;
+  color: #000;
   background-image: url('../images/hint.png');
   background-repeat: no-repeat;
   background-position: 2px 5px;
