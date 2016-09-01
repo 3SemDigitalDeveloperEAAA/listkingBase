@@ -64,7 +64,7 @@ li {
   list-style-type: none;
   text-shadow: 2px 2px 1px #9f593f;
   text-align: left;
-  height: 50px;
+  height: 55px;
   padding-left: 1em;
   padding-top: 10px;}
 
@@ -86,7 +86,7 @@ p {
   display: inline-block;
   margin: 20px auto 20px auto;
   width: 80%;
-  border-radius: 5px;
+  border-radius: 3px;
   text-align: center;}
 
 .hot {
