@@ -3,7 +3,7 @@
 body {
   background-color: #000;
   font-family: 'Oswald', 'Futura', sans-serif;
-  margin: 0; 
+  margin: 0;
   padding: 0;}
 
 #page {
@@ -52,7 +52,9 @@ h2 span {
 ul {
   border:none;
   padding: 0;
-  margin: 0;}
+  margin: 0;
+  clear: both;
+}
 
 li {
   background-color: #ec8b68;
@@ -81,7 +83,7 @@ li.complete a {
 
 p {
   background-color: #fff;
-  color: #666; 
+  color: #666;
   padding: 10px;
   display: inline-block;
   margin: 20px auto 20px auto;
@@ -131,7 +133,7 @@ em.seasonal
 /* FORM STYLES */
 
 form {
-  padding: 0 20px 20px 20px;}
+  padding: 0 20px 10px 20px;}
 
 label {
   color: #fff;
@@ -161,14 +163,14 @@ input[type='submit'], a.add, button, a.show {
   text-transform: uppercase;}
 
 input[type='submit'], a.add, button {
-  float: right;} 
+  float: right;}
 
 input[type='text']:focus, input[type='password']:focus, textarea:focus {
   border: 1px solid #fff;
   background-color: #fff;
   outline: none;}
 
-input[type='submit']:hover, a.add:hover, a.show:hover {
+input[type='submit']:hover, a.add:hover, a.show:hover, button:hover {
   background-color: #000;
   color: #fff;
   cursor: pointer;}
@@ -214,9 +216,9 @@ h2 a {
   font-size: 12px; }
 
 a.show{
-  font-size: 12px; 
-  padding: 5px; 
-  letter-spacing: 0; 
+  font-size: 12px;
+  padding: 5px;
+  letter-spacing: 0;
   position: relative;
   top: -5px;
   left: 10px;}
@@ -224,8 +226,13 @@ a.show{
 /* form example */
 #newItemButton {padding: 10px 20px 75px 20px; display: none;}
 #newItemForm {padding-top: 20px;}
-#itemDescription {width: 360px;}
-#newItemForm input[type='submit'] {margin-top: 0; text-align: left;}
+#itemDescription {width: 300px;}
+#newItemForm input[type='submit']{margin-top: 0; text-align: left;}
+#cancelNewItem {
+  display: block;
+  margin: 0 auto 5px;
+  float: none;
+}
 
 /* Attributes example */
 #group {
@@ -288,7 +295,7 @@ a.show{
     margin: 20px auto 20px auto;
   }
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   h1{
     background-image: url(../images/2xkinglogo.png);
     background-size: 72px 72px;
